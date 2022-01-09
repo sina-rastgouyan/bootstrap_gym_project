@@ -1,0 +1,18 @@
+/* @import url(../fonts/font-definition.css); */
+
+body {
+    font-family: "iranYekan", sans-serif;
+}
+
+
+
+/* Personal Utilities */
+.lh-1 {
+    line-height: 30px;
+}
+
+.lh-2 {
+    line-height: 35px;
+}
+
+/* End Of Personal Utilities */

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "iranYekan";
+    src: url(font-style-files/IRANYekanMobileRegular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "iranYekan";
+    src: url(font-style-files/IRANYekanMobileBold.ttf);
+    font-weight: bold;
+}
