@@ -16,3 +16,61 @@ body {
 }
 
 /* End Of Personal Utilities */
+
+/* Personal Header Styles */
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+/* Personal Banner Styles */
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+@keyframes anim {
+    0% {
+        opacity: 0;
+        transform: translateX(-120px);
+        -webkit-transform: translateX(-120px);
+        -moz-transform: translateX(-120px);
+        -ms-transform: translateX(-120px);
+        -o-transform: translateX(-120px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+    }
+}
+
+.banner-heading {
+    animation-name: anim;
+    animation-duration: 2s;
+}
+
+.banner-par {
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    animation-fill-mode: backwards;
+}
+
+/* End Of Personal Banner Styles */
+/* End Of Personal Header Styles */
