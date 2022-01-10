@@ -194,3 +194,32 @@ header {
 }
 
 /* end of award Styles */
+
+/* Services Styles */
+
+.card-shadow {
+    box-shadow: 5px 8px 20px #444;
+}
+
+.heading {
+    position: absolute;
+    font-size: 1.5rem;
+    bottom: 3rem;
+    left: 0;
+    background-color: #2980b9;
+    width: 60%;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s ease-in;
+}
+
+.heading:hover{
+    opacity: 1;
+    
+}
+
+/* End Of Services Styles */
