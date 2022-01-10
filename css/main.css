@@ -16,6 +16,13 @@ body {
     line-height: 35px;
 }
 
+.underline {
+    width: 9rem;
+    border-top: 3px solid #eee;
+    border-bottom: 3px solid #eee;
+    margin: auto;
+}
+
 /* End Of Personal Utilities */
 
 /* Personal Header Styles */
@@ -217,9 +224,22 @@ header {
     -o-transition: all 0.7s ease-in;
 }
 
-.heading:hover{
+.heading:hover {
     opacity: 1;
-    
+
 }
 
 /* End Of Services Styles */
+
+/* Gallery Styles */
+.gallery-list-item {
+    color: #777;
+    cursor: pointer;
+    user-select: none;
+}
+
+.active-item {
+    color: #70aed2;
+}
+
+/* End Of Gallery Styles */
