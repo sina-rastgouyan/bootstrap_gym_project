@@ -249,4 +249,126 @@ header {
 .coach {
     background-color: #151f20;
 }
+
 /* End Of Coach Styles */
+
+/* Plans Styles */
+
+.card-1,
+.card-2,
+.card-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/membership.jpg);
+    background-size: cover;
+    box-shadow: 7px 8px 50px #555;
+    max-width: 370px;
+}
+
+.card-list-item {
+    border-bottom: 1px groove #eee;
+    width: 55%;
+    margin: auto;
+}
+
+.membership-card-button {
+    background-color: #2980b9;
+    width: 130px;
+    box-shadow: 5px 8px 18px #000;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+.membership-card-button:hover {
+    background-color: #3498db;
+    transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+}
+
+@keyframes memLeftCard {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+        -webkit-transform: translateX(-100px);
+        -moz-transform: translateX(-100px);
+        -ms-transform: translateX(-100px);
+        -o-transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+    }
+}
+
+@keyframes memRightCard {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+        -webkit-transform: translateX(100px);
+        -moz-transform: translateX(100px);
+        -ms-transform: translateX(100px);
+        -o-transform: translateX(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+    }
+}
+
+@keyframes memCenterCard {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+        -webkit-transform: translateY(100px);
+        -moz-transform: translateY(100px);
+        -ms-transform: translateY(100px);
+        -o-transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+    }
+}
+
+.memLeftCard {
+    animation-name: memLeftCard;
+    animation-duration: 2s;
+}
+
+.memRightCard {
+    animation-name: memRightCard;
+    animation-duration: 2s;
+}
+
+.memCenterCard {
+    animation-name: memCenterCard;
+    animation-duration: 2s;
+}
+
+
+
+/* End Of Plans Styles */
